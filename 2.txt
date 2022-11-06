@@ -1,0 +1,76 @@
+int seg a int sea
+
+Lnt seg c int
+
+dp
+
+int seg d=
+
+8 :
+
+BLOT
+
+int sea int see e void setno()
+
+pinMode (seg_dp, OUTPUT); pinMode (seg_a, OUTPUT);
+
+pinMode (seg_b, OUTPUT);
+
+pinMode (seg_c
+
+OUTPUT:
+
+pinmode ( seg a, OUTPUT) pinMode ( seg.
+
+OUTPUT):
+
+pinMode (seg f, OUTPUT) pinMode ( seg_g, OUTPUT):
+
+void loop()
+
+number 1();
+
+delay (I000);
+
+clear ();
+
+delay (1000);
+
+//. CLEAR 7 SEGMENT void clear ()
+
+digitalWrite (seg_a, LOW);
+
+digitalWrite(seg_b, LOW);
+
+digitalWrite(seg_c, LOW);
+
+digitalWrite(seg_dp, LOW);
+
+digitalWrite(seg_d, LOW);
+
+digitalWrite(seg_e, LOW);
+
+digitalWrite(seg_f, LOW);
+
+digitalWrite(seg_g, LOW);
+
+}
+
+//. NUMBER 1 void number_1 ()
+
+digitalWrite(seg_a, LOW);
+
+digitalWrite(seg_b, HIGH);
+
+digitalWrite(seg_c, HIGH);
+
+digitalWrite(seg_dp, LOW);
+
+digitalWrite(seg_d, LOW);
+
+digitalWrite(seg_e, LOW);
+
+digitalWrite(seg_f, LOW);
+
+digitalWrite(seg_g, LOW);
+
