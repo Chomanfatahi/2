@@ -1,0 +1,48 @@
+
+ 
+ 
+ 
+ 
+ 
+ 
+#include <Servo.h> 
+C++ code 
+int sensor_input; float temp; Servo myServo; 
+ 
+void setup() 
+{ 
+ Serial.begin(9600); 
+ myServo.attach(7);  
+} 
+ 
+void loop() 
+{ 
+ temperature(); 
+ servo(); 
+} 
+ 
+void temperature() 
+{ 
+  sensor_input = analogRead(A0); 
+  int c = map(((sensor_input - 20) * 3.04), 0, 1023, -40, 
+125 ); 
+  Serial.print(c); 
+  Serial.print(" Celsius  ");   int f = ((c * 9 ) / 5 + 32); 
+  Serial.print(f); 
+  Serial.println(" Fahrenheit"); 
+   
+ // temp = (float)sensor_input / 1024; 
+ // temp = temp * 5; 
+ // temp = temp - 0.5; 
+ // temp = temp * 100; 
+ // Serial.print(temp); 
+ // Serial.println(" Celsius"); 
+} 
+ 
+void servo() 
+{ 
+ myServo.write(0);   delay(500);  myServo.write(90);  delay(500);  myServo.write(180);  delay(500);  myServo.write(360);  delay(500); 
+} 
+ 
+ 
+  
